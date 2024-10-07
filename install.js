@@ -71,7 +71,8 @@ module.exports = {
         path: "app/client",                // Edit this to customize the path to start the shell from
         message: [
           "npm install",
-          "npm run build"
+          "npm install esbuild",
+          "esbuild ./src/index.tsx --outdir=../public/ --bundle"
         ]
       }
     },
