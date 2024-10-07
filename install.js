@@ -65,17 +65,17 @@ module.exports = {
         }
       }
     },
-    {
-      method: "shell.run",
-      params: {
-        path: "app/client",                // Edit this to customize the path to start the shell from
-        message: [
-          "npm install",
-          "npm install esbuild",
-          "./node_modules/esbuild/bin/esbuild ./src/index.tsx --outdir=../public/ --bundle"
-        ]
-      }
-    },
+//    {
+//      method: "shell.run",
+//      params: {
+//        path: "app/client",                // Edit this to customize the path to start the shell from
+//        message: [
+//          "npm install",
+//          "npm install esbuild",
+//          "./node_modules/esbuild/bin/esbuild ./src/index.tsx --outdir=../public/ --bundle"
+//        ]
+//      }
+//    },
 //    {
 //      method: "fs.link",
 //      params: {
