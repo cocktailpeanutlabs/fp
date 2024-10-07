@@ -72,7 +72,7 @@ module.exports = {
         message: [
           "npm install",
           "npm install esbuild",
-          "esbuild ./src/index.tsx --outdir=../public/ --bundle"
+          "./node_modules/esbuild/bin/esbuild ./src/index.tsx --outdir=../public/ --bundle"
         ]
       }
     },
